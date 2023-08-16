@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-08T16:52:04 IST" name="Default suite" finished-at="2023-07-08T16:56:04 IST" duration-ms="240272">
+    <groups>
+    </groups>
+    <test started-at="2023-07-08T16:52:04 IST" name="Default test" finished-at="2023-07-08T16:56:04 IST" duration-ms="240272">
+      <class name="com.tutorialsninja.qa.testcases.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@449a4f23]" started-at="2023-07-08T16:52:04 IST" name="setup" finished-at="2023-07-08T16:53:04 IST" duration-ms="60443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:com.tutorialsninja.qa.testcases.SearchTest@449a4f23]" started-at="2023-07-08T16:53:16 IST" name="verifySearchWithValidProduct" finished-at="2023-07-08T16:53:27 IST" duration-ms="11309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@449a4f23]" started-at="2023-07-08T16:53:33 IST" name="tearDown" finished-at="2023-07-08T16:53:33 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@449a4f23]" started-at="2023-07-08T16:53:54 IST" name="setup" finished-at="2023-07-08T16:54:13 IST" duration-ms="18936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithInvalidProduct()[pri:2, instance:com.tutorialsninja.qa.testcases.SearchTest@449a4f23]" started-at="2023-07-08T16:54:20 IST" name="verifySearchWithInvalidProduct" finished-at="2023-07-08T16:54:28 IST" duration-ms="8491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInvalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@449a4f23]" started-at="2023-07-08T16:54:34 IST" name="tearDown" finished-at="2023-07-08T16:54:34 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@449a4f23]" started-at="2023-07-08T16:54:49 IST" name="setup" finished-at="2023-07-08T16:55:20 IST" duration-ms="31589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchWithoutAnyProduct()[pri:3, instance:com.tutorialsninja.qa.testcases.SearchTest@449a4f23]" started-at="2023-07-08T16:55:26 IST" name="verifySearchWithoutAnyProduct" finished-at="2023-07-08T16:55:38 IST" depends-on-methods="com.tutorialsninja.qa.testcases.SearchTest.verifySearchWithValidProduct, com.tutorialsninja.qa.testcases.SearchTest.verifySearchWithInvalidProduct" duration-ms="12741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithoutAnyProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialsninja.qa.testcases.SearchTest@449a4f23]" started-at="2023-07-08T16:55:47 IST" name="tearDown" finished-at="2023-07-08T16:55:47 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialsninja.qa.testcases.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
